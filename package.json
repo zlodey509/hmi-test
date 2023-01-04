@@ -1,0 +1,28 @@
+{
+  "name": "hmi-test",
+  "version": "0.0.0",
+  "private": true,
+  "node": "./node_modules/esbuild/install.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "gitart-vue-dialog": "^2.4.1",
+    "leaflet.markercluster": "^1.5.3",
+    "sass": "^1.57.1",
+    "vue": "^3.2.45",
+    "vue-axios": "^3.5.2",
+    "vue-chart-3": "^3.1.8",
+    "vue-good-table-next": "^0.2.1",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue-leaflet/vue-leaflet": "^0.7.0",
+    "leaflet": "^1.9.3",
+    "vite": "^4.0.0"
+  }
+}
