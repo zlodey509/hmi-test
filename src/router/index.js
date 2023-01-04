@@ -3,7 +3,7 @@ import MainPage from '../views/Main.vue'
 import MapPage from '../views/Map.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  mode: 'history',
   routes: [
     {
       path: '/',
