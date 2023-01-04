@@ -4,6 +4,7 @@ import MapPage from '../views/Map.vue'
 
 const router = createRouter({
   history: createWebHistory(),
+  mode: 'history',
   routes: [
     {
       path: '/',
