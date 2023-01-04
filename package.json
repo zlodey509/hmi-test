@@ -5,7 +5,7 @@
   "node": "./node_modules/esbuild/install.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/public/index.html",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
